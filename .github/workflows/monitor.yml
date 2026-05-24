@@ -1,0 +1,49 @@
+name: DeFi Monitor
+
+on:
+  schedule:
+    # 08:00 horário de Brasília (UTC-3) = 11:00 UTC
+    - cron: '0 11 * * *'
+    # 20:00 horário de Brasília = 23:00 UTC
+    - cron: '0 23 * * *'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: defi-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Rodar monitor
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python monitor.py
+
+      - name: Commit snapshot atualizado
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snapshots.json
+          if git diff --staged --quiet; then
+            echo "Sem mudanças no snapshot."
+          else
+            git commit -m "snapshot: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
