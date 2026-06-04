@@ -1,40 +1,40 @@
 {
-  "last_run": "2026-06-03T21:40:19.336012+00:00",
+  "last_run": "2026-06-04T10:51:08.725460+00:00",
   "protocols": {
     "OnRe": {
-      "tvl": 185899930.95442,
+      "tvl": 186417578.1538,
       "price": null,
       "status": "🟢"
     },
     "Altura": {
-      "tvl": 27340746.03799,
+      "tvl": 27058936.59001,
       "price": null,
       "status": "🟢"
     },
     "Unitas": {
-      "tvl": 64058925.73617999,
+      "tvl": 63725319.92293,
+      "price": null,
+      "status": "🟢"
+    },
+    "Hylo": {
+      "tvl": 30196357,
       "price": null,
       "status": "🟡"
     },
-    "Hylo": {
-      "tvl": 31728417,
-      "price": null,
-      "status": "🔴"
-    },
     "Paxos Global Dollar": {
       "tvl": null,
-      "price": 0.999848,
+      "price": 1.0,
       "status": "🟢"
     },
     "Ethena": {
-      "tvl": 5403872948.23036,
-      "price": 0.99858,
+      "tvl": 5376908929.19053,
+      "price": 0.99859,
       "status": "🟢"
     },
     "Apyx": {
       "tvl": null,
       "price": null,
-      "status": "🟢"
+      "status": "🔴"
     }
   }
 }
