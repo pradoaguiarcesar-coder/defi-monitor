@@ -2,10 +2,7 @@ name: DeFi Monitor
 
 on:
   schedule:
-    # 08:00 horário de Brasília (UTC-3) = 11:00 UTC
-    - cron: '0 11 * * *'
-    # 20:00 horário de Brasília = 23:00 UTC
-    - cron: '0 23 * * *'
+    - cron: '5 * * * *'
 
   workflow_dispatch:
 
