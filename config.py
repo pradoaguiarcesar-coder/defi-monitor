@@ -1,28 +1,18 @@
 """
-Configuração do DeFi Monitor.
-
-Lista de protocolos monitorados + thresholds para alertas.
-Edite este arquivo para adicionar/remover protocolos ou ajustar sensibilidade.
+Configuração do DeFi Monitor — v2.
 """
 
 # ============================================================
 # PROTOCOLOS MONITORADOS
 # ============================================================
-# Campos:
-#   name: nome de exibição
-#   token: ticker do token principal
-#   defillama_slug: slug em api.llama.fi/protocol/{slug} (None se não listado)
-#   coingecko_id: id em coingecko.com/api (None se não listado)
-#   is_stablecoin: True se deve monitorar peg em $1
-#   news_query: termos extras de busca para notícias (além do nome)
 
 PROTOCOLS = [
     {
         "name": "OnRe",
         "token": "ONyc",
         "defillama_slug": "onre",
-        "coingecko_id": None,           # ONyc não tem ID no CoinGecko ainda
-        "is_stablecoin": False,         # ONyc é yield-bearing, NÃO mantém peg em $1
+        "coingecko_id": None,
+        "is_stablecoin": False,
         "news_query": "OnRe ONyc reinsurance",
     },
     {
@@ -52,7 +42,7 @@ PROTOCOLS = [
     {
         "name": "Paxos Global Dollar",
         "token": "USDG",
-        "defillama_slug": None,         # USDG é stablecoin pura, não tem página de "protocol"
+        "defillama_slug": None,
         "coingecko_id": "global-dollar",
         "is_stablecoin": True,
         "news_query": "USDG Paxos Global Dollar",
@@ -68,68 +58,116 @@ PROTOCOLS = [
     {
         "name": "Apyx",
         "token": "apxUSD/apyUSD",
-        "defillama_slug": "apyx",       # Protocolo novo, slug pode ainda não existir
+        "defillama_slug": "apyx",
         "coingecko_id": None,
         "is_stablecoin": True,
         "news_query": "Apyx apxUSD apyUSD stablecoin",
     },
+    {
+        "name": "Lido (wstETH)",
+        "token": "wstETH",
+        "defillama_slug": "lido",
+        "coingecko_id": "wrapped-steth",
+        "is_stablecoin": False,
+        "track_eth_ratio": True,
+        "news_query": "Lido wstETH staked ETH",
+    },
+    {
+        "name": "Exponent",
+        "token": "Vault USDC",
+        "defillama_slug": "exponent",
+        "coingecko_id": None,
+        "is_stablecoin": False,
+        "news_query": "Exponent finance Solana yield",
+    },
+    {
+        "name": "Morpho",
+        "token": "Morpho Blue",
+        "defillama_slug": "morpho-blue",
+        "coingecko_id": "morpho",
+        "is_stablecoin": False,
+        "news_query": "Morpho Blue lending exploit",
+    },
+    {
+        "name": "Project X",
+        "token": "PRJX",
+        "defillama_slug": "project-x",
+        "coingecko_id": None,
+        "is_stablecoin": False,
+        "news_query": "Project X HyperEVM DEX",
+    },
+    {
+        "name": "Kamino",
+        "token": "K-Lend",
+        "defillama_slug": "kamino-lend",
+        "coingecko_id": "kamino",
+        "is_stablecoin": False,
+        "news_query": "Kamino lending Solana",
+    },
 ]
 
-
-# ============================================================
-# THRESHOLDS DE ALERTA
-# ============================================================
-# Valores em porcentagem. Ajuste conforme sua tolerância a risco.
+GRANULAR_MARKETS = [
+    {
+        "name": "Morpho — mercados com WBTC",
+        "defillama_project": "morpho-blue",
+        "symbol_keywords": ["WBTC"],
+        "max_show": 5,
+    },
+    {
+        "name": "Morpho — mercados com wstETH",
+        "defillama_project": "morpho-blue",
+        "symbol_keywords": ["WSTETH", "WST-ETH"],
+        "max_show": 5,
+    },
+    {
+        "name": "Kamino — saúde dos empréstimos",
+        "defillama_project": "kamino-lend",
+        "symbol_keywords": None,
+        "max_show": 8,
+        "aggregate": True,
+    },
+]
 
 THRESHOLDS = {
-    # Queda de TVL em 24h
-    "tvl_change_24h_alert": -10.0,   # 🔴 vermelho se queda > 10% em 1 dia
-    "tvl_change_24h_warn":  -5.0,    # 🟡 amarelo se queda > 5%
-
-    # Queda de TVL em 7 dias
-    "tvl_change_7d_warn":   -15.0,   # 🟡 se queda > 15% na semana
-
-    # Desvio de peg para stablecoins (% em relação a $1)
-    "peg_deviation_alert":  1.0,     # 🔴 desvio > 1% (ex: $0.99 ou $1.01)
-    "peg_deviation_warn":   0.3,     # 🟡 desvio > 0.3%
+    "tvl_change_24h_alert":  -10.0,
+    "tvl_change_24h_warn":   -5.0,
+    "tvl_change_7d_warn":    -15.0,
+    "peg_deviation_alert":   1.0,
+    "peg_deviation_warn":    0.3,
+    "market_utilization_alert": 95.0,
+    "market_utilization_warn":  85.0,
+    "market_apy_spike_alert":   100.0,
+    "market_apy_spike_warn":    50.0,
+    "market_tvl_drop_1h_alert": -15.0,
+    "market_tvl_drop_1h_warn":  -8.0,
 }
 
-
-# ============================================================
-# PALAVRAS-CHAVE DE RISCO EM NOTÍCIAS
-# ============================================================
-# Termos buscados nas notícias coletadas (case-insensitive).
-# CRÍTICAS marcam o protocolo como 🔴.
-# ATENÇÃO marcam como 🟡 (se nada pior).
-
 RISK_KEYWORDS_CRITICAL = [
-    # Inglês
     "hack", "hacked", "exploit", "exploited", "drained", "drain",
     "rug", "rugpull", "rug pull", "paused", "halted", "frozen",
     "depeg", "depegged", "vulnerability", "compromised",
-    "stolen", "lost funds", "emergency",
-    # Português
+    "stolen", "lost funds", "emergency", "attack", "attacked",
     "hackeado", "hackeada", "explorado", "explorada", "drenado",
     "congelado", "perdeu fundos", "vulnerabilidade",
-    "emergência", "pausado",
+    "emergência", "pausado", "ataque",
 ]
 
 RISK_KEYWORDS_WARNING = [
-    # Inglês
     "investigation", "investigated", "concern", "warning",
     "lawsuit", "regulatory action", "sanctioned", "sec ",
-    "delisted", "delisting", "scrutiny", "probe",
-    # Português
+    "delisted", "delisting", "scrutiny", "probe", "audit failed",
     "investigação", "preocupação", "ação regulatória",
     "sancionado", "deslistado", "alerta",
 ]
 
+MARKET_WIDE_NEWS_QUERIES = [
+    "DeFi hack exploit",
+    "stablecoin depeg",
+    "protocol drained smart contract",
+    "DeFi vulnerability disclosure",
+]
 
-# ============================================================
-# CONFIGURAÇÃO DE NOTÍCIAS
-# ============================================================
-# Janela de busca (horas) — notícias mais antigas são ignoradas.
+HACKS_LOOKBACK_HOURS = 72
+
 NEWS_LOOKBACK_HOURS = 24
-
-# Máximo de notícias por protocolo na busca.
-NEWS_MAX_PER_PROTOCOL = 8
+NEWS_MAX_PER_PROTOCOL = 6
