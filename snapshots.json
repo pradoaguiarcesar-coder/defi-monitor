@@ -1,34 +1,34 @@
 {
-  "last_run": "2026-07-21T10:31:49.503786+00:00",
+  "last_run": "2026-07-21T12:41:47.498079+00:00",
   "protocols": {
     "OnRe": {
-      "tvl": 239007843.25885,
+      "tvl": 239195954.55908,
       "price": null,
       "status": "🟢"
     },
     "Altura": {
-      "tvl": 32412615.06594,
+      "tvl": 32415575.36879,
       "price": null,
       "status": "🟢"
     },
     "Unitas": {
-      "tvl": 54071627.832619995,
+      "tvl": 53848803.36587,
       "price": null,
       "status": "🟢"
     },
     "Hylo": {
-      "tvl": 31750929,
+      "tvl": 31686255,
       "price": null,
       "status": "🟢"
     },
     "Paxos Global Dollar": {
       "tvl": null,
-      "price": 1.0,
+      "price": 0.999476,
       "status": "🟢"
     },
     "Ethena": {
-      "tvl": 4267732094.89875,
-      "price": 0.999698,
+      "tvl": 4263131924.69395,
+      "price": 0.99974,
       "status": "🟢"
     },
     "Apyx": {
@@ -37,27 +37,27 @@
       "status": "🟢"
     },
     "Lido (wstETH)": {
-      "tvl": 17862201289.3937,
-      "price": 2402.31,
+      "tvl": 17753619648.637047,
+      "price": 2408.67,
       "status": "🟢"
     },
     "Exponent": {
-      "tvl": 109400356,
+      "tvl": 109634903,
       "price": null,
       "status": "🟢"
     },
     "Morpho": {
-      "tvl": 11594078731.422009,
-      "price": 2.0,
+      "tvl": 11576717918.06536,
+      "price": 1.99,
       "status": "🟢"
     },
     "Project X": {
-      "tvl": 37866910.91263,
+      "tvl": 37665570.49746,
       "price": null,
       "status": "🟢"
     },
     "Kamino": {
-      "tvl": 1987136645.65794,
+      "tvl": 1982849721.83353,
       "price": null,
       "status": "🔴"
     }
@@ -66,23 +66,23 @@
     "Morpho — mercados com WBTC": {
       "pools": {
         "2d1aa052-64c0-4c2c-82a0-db39062f04ab": {
-          "tvlUsd": 198943848,
+          "tvlUsd": 199057625,
           "apy": 0
         },
         "c037a916-a462-4c65-b217-100db0fdc0e0": {
-          "tvlUsd": 90312030,
+          "tvlUsd": 90375948,
           "apy": 0
         },
         "e3cd6e7f-aefe-44bd-8e20-94304abd285d": {
-          "tvlUsd": 24031687,
-          "apy": 6e-05
+          "tvlUsd": 24479488,
+          "apy": 5e-05
         },
         "1866605d-6b79-49a6-84dd-31ff632858f0": {
-          "tvlUsd": 18536379,
+          "tvlUsd": 18970232,
           "apy": 0
         },
         "3dacc646-46d0-4c49-b135-2f25b955316c": {
-          "tvlUsd": 6187646,
+          "tvlUsd": 6192025,
           "apy": 0
         }
       }
@@ -90,23 +90,23 @@
     "Morpho — mercados com wstETH": {
       "pools": {
         "4ce0c458-2171-463b-92ce-458afe367a4e": {
-          "tvlUsd": 473148677,
+          "tvlUsd": 472077950,
           "apy": 0
         },
         "462c6f50-ceab-4235-aa0e-21ee1e345908": {
-          "tvlUsd": 99197291,
+          "tvlUsd": 97469378,
           "apy": 0
         },
         "7d114ce1-2af1-42c3-a719-406fbbc3ed92": {
-          "tvlUsd": 58522261,
+          "tvlUsd": 58381945,
           "apy": 0
         },
         "0d999bae-a3d5-4c08-93f6-98abb32ce290": {
-          "tvlUsd": 23854426,
+          "tvlUsd": 23800444,
           "apy": 0
         },
         "e875c975-b9f7-4987-9b4b-a27f3633115f": {
-          "tvlUsd": 22790095,
+          "tvlUsd": 22688760,
           "apy": 0
         }
       }
@@ -114,36 +114,36 @@
     "Kamino — saúde dos empréstimos": {
       "pools": {
         "d1f82472-32fd-4061-bcb2-f4764d4a2441": {
-          "tvlUsd": 268760383,
+          "tvlUsd": 268762342,
           "apy": 0
         },
         "1accaa9f-f4fa-4063-9502-1733ed8e4832": {
-          "tvlUsd": 191335845,
+          "tvlUsd": 191159182,
           "apy": 0
         },
         "1eba52a9-e5d4-43d0-9758-31628204eba3": {
-          "tvlUsd": 134839011,
+          "tvlUsd": 134927699,
           "apy": 0
         },
         "f3d99b7b-1691-48b6-b3b0-87838e231a51": {
-          "tvlUsd": 114180879,
+          "tvlUsd": 114051183,
           "apy": 0
         },
         "1da10c92-fd2e-4506-a4d1-8c8fa22ff744": {
-          "tvlUsd": 67514440,
+          "tvlUsd": 67466260,
           "apy": 0.00493
         },
         "c71103c1-773a-4cee-a813-3177fa7770de": {
-          "tvlUsd": 66319643,
+          "tvlUsd": 66327487,
           "apy": 0
         },
         "78c0fa88-9629-4570-bb48-46bbc82af472": {
-          "tvlUsd": 40811710,
+          "tvlUsd": 40783572,
           "apy": 0
         },
         "ec8af777-6c9e-440a-9a3d-355f556baa04": {
-          "tvlUsd": 40103030,
-          "apy": 0.07097
+          "tvlUsd": 40128449,
+          "apy": 0.07094
         }
       }
     }
