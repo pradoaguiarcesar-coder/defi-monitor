@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-11T11:00:01.988953+00:00",
+  "last_run": "2026-08-11T11:52:21.815914+00:00",
   "protocols": {
     "OnRe": {
       "tvl": 255318056.75387,
@@ -12,23 +12,23 @@
       "status": "🟢"
     },
     "Unitas": {
-      "tvl": 67682064,
+      "tvl": 67689294,
       "price": null,
       "status": "🟢"
     },
     "Hylo": {
-      "tvl": 31247752,
+      "tvl": 31393906,
       "price": null,
       "status": "🟢"
     },
     "Paxos Global Dollar": {
       "tvl": null,
-      "price": 0.999796,
+      "price": 0.999874,
       "status": "🟢"
     },
     "Ethena": {
       "tvl": 4239430015.03203,
-      "price": 0.999768,
+      "price": 0.999788,
       "status": "🟢"
     },
     "Apyx": {
@@ -38,11 +38,11 @@
     },
     "Lido (wstETH)": {
       "tvl": 17810166435.913437,
-      "price": 2338.93,
+      "price": 2347.13,
       "status": "🟢"
     },
     "Exponent": {
-      "tvl": 127428019,
+      "tvl": 130847503,
       "price": null,
       "status": "🟢"
     },
@@ -52,7 +52,7 @@
       "status": "🟢"
     },
     "Project X": {
-      "tvl": 36262881.68809,
+      "tvl": 36209421.47431,
       "price": null,
       "status": "🟢"
     },
@@ -66,23 +66,23 @@
     "Morpho — mercados com WBTC": {
       "pools": {
         "2d1aa052-64c0-4c2c-82a0-db39062f04ab": {
-          "tvlUsd": 196398571,
+          "tvlUsd": 196392098,
           "apy": 0
         },
         "c037a916-a462-4c65-b217-100db0fdc0e0": {
-          "tvlUsd": 94600870,
+          "tvlUsd": 94597751,
           "apy": 0
         },
         "e3cd6e7f-aefe-44bd-8e20-94304abd285d": {
-          "tvlUsd": 25035317,
+          "tvlUsd": 25034492,
           "apy": 4e-05
         },
         "1866605d-6b79-49a6-84dd-31ff632858f0": {
-          "tvlUsd": 22147087,
+          "tvlUsd": 22176769,
           "apy": 0
         },
         "3dacc646-46d0-4c49-b135-2f25b955316c": {
-          "tvlUsd": 6222367,
+          "tvlUsd": 6222162,
           "apy": 0
         }
       }
@@ -90,23 +90,23 @@
     "Morpho — mercados com wstETH": {
       "pools": {
         "4ce0c458-2171-463b-92ce-458afe367a4e": {
-          "tvlUsd": 295125665,
+          "tvlUsd": 296073553,
           "apy": 0
         },
         "462c6f50-ceab-4235-aa0e-21ee1e345908": {
-          "tvlUsd": 77069723,
+          "tvlUsd": 77317257,
           "apy": 0
         },
         "7d114ce1-2af1-42c3-a719-406fbbc3ed92": {
-          "tvlUsd": 56560551,
+          "tvlUsd": 56742212,
           "apy": 0
         },
         "e875c975-b9f7-4987-9b4b-a27f3633115f": {
-          "tvlUsd": 38234063,
+          "tvlUsd": 38356863,
           "apy": 0
         },
         "0d999bae-a3d5-4c08-93f6-98abb32ce290": {
-          "tvlUsd": 21752561,
+          "tvlUsd": 21822426,
           "apy": 0
         }
       }
@@ -114,36 +114,36 @@
     "Kamino — saúde dos empréstimos": {
       "pools": {
         "d1f82472-32fd-4061-bcb2-f4764d4a2441": {
-          "tvlUsd": 270222908,
+          "tvlUsd": 270242336,
           "apy": 0
         },
         "1accaa9f-f4fa-4063-9502-1733ed8e4832": {
-          "tvlUsd": 185428386,
+          "tvlUsd": 185630494,
           "apy": 0
         },
         "1eba52a9-e5d4-43d0-9758-31628204eba3": {
-          "tvlUsd": 139796872,
+          "tvlUsd": 139789481,
           "apy": 0
         },
         "f3d99b7b-1691-48b6-b3b0-87838e231a51": {
-          "tvlUsd": 131759228,
+          "tvlUsd": 131762694,
           "apy": 0
         },
         "1da10c92-fd2e-4506-a4d1-8c8fa22ff744": {
-          "tvlUsd": 69156745,
+          "tvlUsd": 69232119,
           "apy": 0.0011
         },
         "c71103c1-773a-4cee-a813-3177fa7770de": {
-          "tvlUsd": 64245418,
+          "tvlUsd": 64246979,
           "apy": 0
         },
         "ec8af777-6c9e-440a-9a3d-355f556baa04": {
-          "tvlUsd": 44378883,
+          "tvlUsd": 44350021,
           "apy": 0.00478
         },
         "e705187b-da56-463d-a429-4e17bfb7e0d4": {
-          "tvlUsd": 38902797,
-          "apy": 0.00094
+          "tvlUsd": 38949971,
+          "apy": 0.00092
         }
       }
     }
