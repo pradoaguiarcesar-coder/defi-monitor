@@ -1,13 +1,13 @@
 {
-  "last_run": "2026-08-12T22:54:27.295434+00:00",
+  "last_run": "2026-08-12T23:53:06.128488+00:00",
   "protocols": {
     "OnRe": {
-      "tvl": 256127171.77156,
+      "tvl": 256152487.6404,
       "price": null,
       "status": "🟢"
     },
     "Altura": {
-      "tvl": 32403609.46306,
+      "tvl": 32404760.41386,
       "price": null,
       "status": "🟢"
     },
@@ -23,12 +23,12 @@
     },
     "Paxos Global Dollar": {
       "tvl": null,
-      "price": 0.999907,
+      "price": 0.999831,
       "status": "🟢"
     },
     "Ethena": {
       "tvl": 4272978428.67388,
-      "price": 0.999586,
+      "price": 0.999569,
       "status": "🟢"
     },
     "Apyx": {
@@ -37,17 +37,17 @@
       "status": "🟢"
     },
     "Lido (wstETH)": {
-      "tvl": 17839450510.255962,
-      "price": 2328.66,
+      "tvl": 17787708512.8839,
+      "price": 2330.27,
       "status": "🟢"
     },
     "Exponent": {
-      "tvl": 130159594,
+      "tvl": 130061743,
       "price": null,
       "status": "🟢"
     },
     "Morpho": {
-      "tvl": 12414114218.680382,
+      "tvl": 12399009902.91431,
       "price": null,
       "status": "🟢"
     },
@@ -66,23 +66,23 @@
     "Morpho — mercados com WBTC": {
       "pools": {
         "2d1aa052-64c0-4c2c-82a0-db39062f04ab": {
-          "tvlUsd": 193954087,
+          "tvlUsd": 193604837,
           "apy": 0
         },
         "c037a916-a462-4c65-b217-100db0fdc0e0": {
-          "tvlUsd": 93565698,
+          "tvlUsd": 93397216,
           "apy": 0
         },
         "e3cd6e7f-aefe-44bd-8e20-94304abd285d": {
-          "tvlUsd": 24757350,
+          "tvlUsd": 24696774,
           "apy": 4e-05
         },
         "1866605d-6b79-49a6-84dd-31ff632858f0": {
-          "tvlUsd": 21883775,
+          "tvlUsd": 21801768,
           "apy": 0
         },
         "3dacc646-46d0-4c49-b135-2f25b955316c": {
-          "tvlUsd": 6154245,
+          "tvlUsd": 6143163,
           "apy": 0
         }
       }
@@ -90,23 +90,23 @@
     "Morpho — mercados com wstETH": {
       "pools": {
         "4ce0c458-2171-463b-92ce-458afe367a4e": {
-          "tvlUsd": 295110790,
+          "tvlUsd": 294455754,
           "apy": 0
         },
         "462c6f50-ceab-4235-aa0e-21ee1e345908": {
-          "tvlUsd": 77039675,
+          "tvlUsd": 76866920,
           "apy": 0
         },
         "7d114ce1-2af1-42c3-a719-406fbbc3ed92": {
-          "tvlUsd": 56995798,
+          "tvlUsd": 56867990,
           "apy": 0
         },
         "e875c975-b9f7-4987-9b4b-a27f3633115f": {
-          "tvlUsd": 38271287,
+          "tvlUsd": 38185467,
           "apy": 0
         },
         "0d999bae-a3d5-4c08-93f6-98abb32ce290": {
-          "tvlUsd": 21767800,
+          "tvlUsd": 21718987,
           "apy": 0
         }
       }
@@ -114,35 +114,35 @@
     "Kamino — saúde dos empréstimos": {
       "pools": {
         "d1f82472-32fd-4061-bcb2-f4764d4a2441": {
-          "tvlUsd": 270109288,
+          "tvlUsd": 270113867,
           "apy": 0
         },
         "1accaa9f-f4fa-4063-9502-1733ed8e4832": {
-          "tvlUsd": 184583329,
+          "tvlUsd": 184535068,
           "apy": 0
         },
         "1eba52a9-e5d4-43d0-9758-31628204eba3": {
-          "tvlUsd": 139547904,
+          "tvlUsd": 139544884,
           "apy": 0
         },
         "f3d99b7b-1691-48b6-b3b0-87838e231a51": {
-          "tvlUsd": 132110910,
+          "tvlUsd": 132268594,
           "apy": 0
         },
         "1da10c92-fd2e-4506-a4d1-8c8fa22ff744": {
-          "tvlUsd": 68867891,
+          "tvlUsd": 68841972,
           "apy": 0.0011
         },
         "c71103c1-773a-4cee-a813-3177fa7770de": {
-          "tvlUsd": 64405846,
+          "tvlUsd": 64405128,
           "apy": 0
         },
         "ec8af777-6c9e-440a-9a3d-355f556baa04": {
-          "tvlUsd": 43848452,
-          "apy": 0.00538
+          "tvlUsd": 43798587,
+          "apy": 0.00471
         },
         "e705187b-da56-463d-a429-4e17bfb7e0d4": {
-          "tvlUsd": 38720853,
+          "tvlUsd": 38710728,
           "apy": 0.00092
         }
       }
