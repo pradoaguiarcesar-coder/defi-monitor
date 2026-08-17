@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-17T04:53:01.955934+00:00",
+  "last_run": "2026-08-17T05:43:43.181778+00:00",
   "protocols": {
     "OnRe": {
       "tvl": 262347574.30195,
@@ -17,7 +17,7 @@
       "status": "🟢"
     },
     "Hylo": {
-      "tvl": 33840738,
+      "tvl": 33871741,
       "price": null,
       "status": "🟢"
     },
@@ -27,8 +27,8 @@
       "status": "🟢"
     },
     "Ethena": {
-      "tvl": 4273956999.55834,
-      "price": 0.999739,
+      "tvl": 4274067385.93315,
+      "price": 0.999703,
       "status": "🟢"
     },
     "Apyx": {
@@ -37,22 +37,22 @@
       "status": "🟢"
     },
     "Lido (wstETH)": {
-      "tvl": 18063479576.36358,
-      "price": 2362.56,
+      "tvl": 18094525577.56957,
+      "price": 2355.97,
       "status": "🟢"
     },
     "Exponent": {
-      "tvl": 135310253,
+      "tvl": 135361450,
       "price": null,
       "status": "🟢"
     },
     "Morpho": {
       "tvl": 12511259813.67712,
-      "price": null,
+      "price": 2.04,
       "status": "🟢"
     },
     "Project X": {
-      "tvl": 37583351.71969,
+      "tvl": 37531849.16695,
       "price": null,
       "status": "🟢"
     },
@@ -66,23 +66,23 @@
     "Morpho — mercados com WBTC": {
       "pools": {
         "2d1aa052-64c0-4c2c-82a0-db39062f04ab": {
-          "tvlUsd": 193348927,
+          "tvlUsd": 193808585,
           "apy": 0
         },
         "c037a916-a462-4c65-b217-100db0fdc0e0": {
-          "tvlUsd": 96137937,
+          "tvlUsd": 96366491,
           "apy": 0
         },
         "e3cd6e7f-aefe-44bd-8e20-94304abd285d": {
-          "tvlUsd": 24577815,
+          "tvlUsd": 24636245,
           "apy": 3e-05
         },
         "1866605d-6b79-49a6-84dd-31ff632858f0": {
-          "tvlUsd": 21660976,
+          "tvlUsd": 21704548,
           "apy": 0
         },
         "3dacc646-46d0-4c49-b135-2f25b955316c": {
-          "tvlUsd": 6478157,
+          "tvlUsd": 6493558,
           "apy": 0
         }
       }
@@ -90,23 +90,23 @@
     "Morpho — mercados com wstETH": {
       "pools": {
         "4ce0c458-2171-463b-92ce-458afe367a4e": {
-          "tvlUsd": 294775444,
+          "tvlUsd": 295319094,
           "apy": 0
         },
         "462c6f50-ceab-4235-aa0e-21ee1e345908": {
-          "tvlUsd": 74407100,
+          "tvlUsd": 74544328,
           "apy": 0
         },
         "7d114ce1-2af1-42c3-a719-406fbbc3ed92": {
-          "tvlUsd": 57668441,
+          "tvlUsd": 57774798,
           "apy": 0
         },
         "e875c975-b9f7-4987-9b4b-a27f3633115f": {
-          "tvlUsd": 39911974,
+          "tvlUsd": 39985583,
           "apy": 0
         },
         "0d999bae-a3d5-4c08-93f6-98abb32ce290": {
-          "tvlUsd": 23923474,
+          "tvlUsd": 23967596,
           "apy": 0
         }
       }
