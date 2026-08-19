@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-19T16:41:26.497415+00:00",
+  "last_run": "2026-08-19T17:35:19.844224+00:00",
   "protocols": {
     "OnRe": {
       "tvl": 272012704.96258,
@@ -17,7 +17,7 @@
       "status": "🟢"
     },
     "Hylo": {
-      "tvl": 36229271,
+      "tvl": 36904151,
       "price": null,
       "status": "🟢"
     },
@@ -27,8 +27,8 @@
       "status": "🟢"
     },
     "Ethena": {
-      "tvl": 4386404722.41828,
-      "price": 0.999948,
+      "tvl": 4386448265.41828,
+      "price": 1.0,
       "status": "🟢"
     },
     "Apyx": {
@@ -37,17 +37,17 @@
       "status": "🟢"
     },
     "Lido (wstETH)": {
-      "tvl": 19847393067.14854,
-      "price": 2603.17,
+      "tvl": 19861840389.146877,
+      "price": 2576.79,
       "status": "🟢"
     },
     "Exponent": {
-      "tvl": 134885008,
+      "tvl": 134854822,
       "price": null,
       "status": "🟢"
     },
     "Morpho": {
-      "tvl": 12698450542.20639,
+      "tvl": 12970693084.25977,
       "price": null,
       "status": "🟢"
     },
@@ -66,23 +66,23 @@
     "Morpho — mercados com WBTC": {
       "pools": {
         "2d1aa052-64c0-4c2c-82a0-db39062f04ab": {
-          "tvlUsd": 207845953,
+          "tvlUsd": 208053441,
           "apy": 0
         },
         "c037a916-a462-4c65-b217-100db0fdc0e0": {
-          "tvlUsd": 105692179,
+          "tvlUsd": 105923108,
           "apy": 0
         },
         "e3cd6e7f-aefe-44bd-8e20-94304abd285d": {
-          "tvlUsd": 25924971,
+          "tvlUsd": 25981616,
           "apy": 3e-05
         },
         "1866605d-6b79-49a6-84dd-31ff632858f0": {
-          "tvlUsd": 22807096,
+          "tvlUsd": 22859508,
           "apy": 0
         },
         "3dacc646-46d0-4c49-b135-2f25b955316c": {
-          "tvlUsd": 7017732,
+          "tvlUsd": 7033065,
           "apy": 0
         }
       }
@@ -90,23 +90,23 @@
     "Morpho — mercados com wstETH": {
       "pools": {
         "4ce0c458-2171-463b-92ce-458afe367a4e": {
-          "tvlUsd": 306311093,
+          "tvlUsd": 306336131,
           "apy": 0
         },
         "462c6f50-ceab-4235-aa0e-21ee1e345908": {
-          "tvlUsd": 84156128,
+          "tvlUsd": 80968576,
           "apy": 0
         },
         "7d114ce1-2af1-42c3-a719-406fbbc3ed92": {
-          "tvlUsd": 63295250,
+          "tvlUsd": 63300295,
           "apy": 0
         },
         "e875c975-b9f7-4987-9b4b-a27f3633115f": {
-          "tvlUsd": 43316510,
+          "tvlUsd": 43319963,
           "apy": 0
         },
         "0d999bae-a3d5-4c08-93f6-98abb32ce290": {
-          "tvlUsd": 24687146,
+          "tvlUsd": 24689114,
           "apy": 0
         }
       }
@@ -114,35 +114,35 @@
     "Kamino — saúde dos empréstimos": {
       "pools": {
         "d1f82472-32fd-4061-bcb2-f4764d4a2441": {
-          "tvlUsd": 270003107,
+          "tvlUsd": 270026001,
           "apy": 0
         },
         "1accaa9f-f4fa-4063-9502-1733ed8e4832": {
-          "tvlUsd": 200466502,
+          "tvlUsd": 199961525,
           "apy": 0
         },
         "f3d99b7b-1691-48b6-b3b0-87838e231a51": {
-          "tvlUsd": 152305785,
+          "tvlUsd": 152303343,
           "apy": 0
         },
         "1eba52a9-e5d4-43d0-9758-31628204eba3": {
-          "tvlUsd": 135363358,
+          "tvlUsd": 135358759,
           "apy": 0
         },
         "1da10c92-fd2e-4506-a4d1-8c8fa22ff744": {
-          "tvlUsd": 74778638,
+          "tvlUsd": 74581214,
           "apy": 0.00116
         },
         "c71103c1-773a-4cee-a813-3177fa7770de": {
-          "tvlUsd": 63331939,
+          "tvlUsd": 63332751,
           "apy": 0
         },
         "ec8af777-6c9e-440a-9a3d-355f556baa04": {
-          "tvlUsd": 47502440,
-          "apy": 0.00572
+          "tvlUsd": 47614549,
+          "apy": 0.00571
         },
         "e705187b-da56-463d-a429-4e17bfb7e0d4": {
-          "tvlUsd": 41838245,
+          "tvlUsd": 41784554,
           "apy": 0.00093
         }
       }
