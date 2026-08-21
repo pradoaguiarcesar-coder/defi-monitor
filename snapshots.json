@@ -1,8 +1,8 @@
 {
-  "last_run": "2026-08-21T14:47:30.327460+00:00",
+  "last_run": "2026-08-21T15:42:47.808435+00:00",
   "protocols": {
     "OnRe": {
-      "tvl": 272757764.62246,
+      "tvl": 272751201.28154,
       "price": null,
       "status": "🟢"
     },
@@ -12,23 +12,23 @@
       "status": "🟢"
     },
     "Unitas": {
-      "tvl": 64242156,
+      "tvl": 64233250,
       "price": null,
       "status": "🟢"
     },
     "Hylo": {
-      "tvl": 41398735,
+      "tvl": 41455941,
       "price": null,
       "status": "🟢"
     },
     "Paxos Global Dollar": {
       "tvl": null,
-      "price": 0.999767,
+      "price": 0.999798,
       "status": "🟢"
     },
     "Ethena": {
-      "tvl": 4387535675.63843,
-      "price": 0.999751,
+      "tvl": 4387201371.19739,
+      "price": 0.99974,
       "status": "🟢"
     },
     "Apyx": {
@@ -37,40 +37,115 @@
       "status": "🟢"
     },
     "Lido (wstETH)": {
-      "tvl": 22894194202.12273,
-      "price": 2962.74,
+      "tvl": 22820424434.39547,
+      "price": 2980.63,
       "status": "🟢"
     },
     "Exponent": {
-      "tvl": 131470603,
+      "tvl": 131486595,
       "price": null,
       "status": "🟢"
     },
     "Morpho": {
-      "tvl": 13770666980.81695,
-      "price": null,
+      "tvl": 13831153769.20155,
+      "price": 2.51,
       "status": "🟢"
     },
     "Project X": {
-      "tvl": 42938338.82266,
+      "tvl": 43157636.14746,
       "price": null,
       "status": "🟢"
     },
     "Kamino": {
-      "tvl": 2144036325.9183998,
-      "price": null,
+      "tvl": 2146618636.7465801,
+      "price": 0.02437229,
       "status": "🟢"
     }
   },
   "granular": {
     "Morpho — mercados com WBTC": {
-      "pools": {}
+      "pools": {
+        "2d1aa052-64c0-4c2c-82a0-db39062f04ab": {
+          "tvlUsd": 234025054,
+          "apy": 0
+        },
+        "c037a916-a462-4c65-b217-100db0fdc0e0": {
+          "tvlUsd": 120732471,
+          "apy": 0
+        },
+        "e3cd6e7f-aefe-44bd-8e20-94304abd285d": {
+          "tvlUsd": 28885026,
+          "apy": 0
+        },
+        "1866605d-6b79-49a6-84dd-31ff632858f0": {
+          "tvlUsd": 25349959,
+          "apy": 0
+        },
+        "3dacc646-46d0-4c49-b135-2f25b955316c": {
+          "tvlUsd": 8346521,
+          "apy": 0
+        }
+      }
     },
     "Morpho — mercados com wstETH": {
-      "pools": {}
+      "pools": {
+        "4ce0c458-2171-463b-92ce-458afe367a4e": {
+          "tvlUsd": 331614971,
+          "apy": 0
+        },
+        "462c6f50-ceab-4235-aa0e-21ee1e345908": {
+          "tvlUsd": 88687619,
+          "apy": 0
+        },
+        "7d114ce1-2af1-42c3-a719-406fbbc3ed92": {
+          "tvlUsd": 71674642,
+          "apy": 0
+        },
+        "e875c975-b9f7-4987-9b4b-a27f3633115f": {
+          "tvlUsd": 45504222,
+          "apy": 0
+        },
+        "0d999bae-a3d5-4c08-93f6-98abb32ce290": {
+          "tvlUsd": 27658013,
+          "apy": 0
+        }
+      }
     },
     "Kamino — saúde dos empréstimos": {
-      "pools": {}
+      "pools": {
+        "d1f82472-32fd-4061-bcb2-f4764d4a2441": {
+          "tvlUsd": 268866418,
+          "apy": 0
+        },
+        "1accaa9f-f4fa-4063-9502-1733ed8e4832": {
+          "tvlUsd": 224863841,
+          "apy": 0
+        },
+        "f3d99b7b-1691-48b6-b3b0-87838e231a51": {
+          "tvlUsd": 157245331,
+          "apy": 0
+        },
+        "1eba52a9-e5d4-43d0-9758-31628204eba3": {
+          "tvlUsd": 134516436,
+          "apy": 0
+        },
+        "1da10c92-fd2e-4506-a4d1-8c8fa22ff744": {
+          "tvlUsd": 85874115,
+          "apy": 0.00029
+        },
+        "c71103c1-773a-4cee-a813-3177fa7770de": {
+          "tvlUsd": 62741976,
+          "apy": 0
+        },
+        "ec8af777-6c9e-440a-9a3d-355f556baa04": {
+          "tvlUsd": 54113825,
+          "apy": 0.00449
+        },
+        "e705187b-da56-463d-a429-4e17bfb7e0d4": {
+          "tvlUsd": 47339466,
+          "apy": 0.00097
+        }
+      }
     }
   }
 }
