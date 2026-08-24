@@ -1,23 +1,23 @@
 {
-  "last_run": "2026-08-24T16:50:10.817804+00:00",
+  "last_run": "2026-08-24T17:38:56.447748+00:00",
   "protocols": {
     "OnRe": {
-      "tvl": null,
+      "tvl": 275758285.50124,
       "price": null,
       "status": "🟢"
     },
     "Altura": {
-      "tvl": null,
+      "tvl": 32435763.64657,
       "price": null,
       "status": "🟢"
     },
     "Unitas": {
-      "tvl": null,
+      "tvl": 63639953,
       "price": null,
       "status": "🟢"
     },
     "Hylo": {
-      "tvl": null,
+      "tvl": 45486197,
       "price": null,
       "status": "🟢"
     },
@@ -27,8 +27,8 @@
       "status": "🟢"
     },
     "Ethena": {
-      "tvl": null,
-      "price": 0.999699,
+      "tvl": 4371645343.64519,
+      "price": 0.99966,
       "status": "🟢"
     },
     "Apyx": {
@@ -37,18 +37,18 @@
       "status": "🟢"
     },
     "Lido (wstETH)": {
-      "tvl": null,
-      "price": 3088.8,
+      "tvl": 23977028797.295128,
+      "price": 3061.12,
       "status": "🟢"
     },
     "Exponent": {
-      "tvl": null,
+      "tvl": 133383045,
       "price": null,
       "status": "🟢"
     },
     "Morpho": {
-      "tvl": null,
-      "price": 2.7,
+      "tvl": 14231830217.392902,
+      "price": 2.62,
       "status": "🟢"
     },
     "Project X": {
@@ -58,7 +58,7 @@
     },
     "Kamino": {
       "tvl": null,
-      "price": 0.02478917,
+      "price": null,
       "status": "🟢"
     }
   },
